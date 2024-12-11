@@ -1,0 +1,66 @@
+.filters select {
+    margin: 10px;
+}
+
+/* Custom table styles */
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 12px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.table th {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+
+.table-bordered {
+    border: 1px solid #dee2e6;
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid #dee2e6;
+}
+
+/* Pagination styling */
+.pagination {
+    margin-top: 20px;
+}
+
+.pagination .page-item {
+    margin: 0 5px;
+}
+
+.pagination .page-link {
+    border: 1px solid #dee2e6;
+    padding: 8px 12px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.pagination .page-link:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.pagination .active .page-link {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.pagination .disabled .page-link {
+    color: #6c757d;
+}
+
